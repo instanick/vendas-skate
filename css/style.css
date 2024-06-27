@@ -1,0 +1,205 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+}
+
+body {
+    background-image: url(../assets/back-img.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(black, rgb(180, 20, 20));
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo {
+    display: flex;
+    height: 70px;
+}
+
+.texto-superstar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 16px;
+}
+
+nav a {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 16px;
+    transition: 0.1s;
+}
+
+nav a:hover {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    transition: 0.1s;
+}
+
+.texto-element {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 16px;
+}
+
+.texto-essencia {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 16px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 20px;
+}
+
+.superstar {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.essencia {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+footer {
+    background-color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.img-superstar {
+    display: flex;
+    height: 300px;
+    padding: 18px;
+}
+
+.img-element {
+    padding: 50px;
+    padding-top: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.element {
+    background-color: black;
+    width: 300px;
+    height: 420px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgb(255, 0, 0) 0px 0px 20px;
+    gap: 10px;
+}
+
+.essencia {
+    padding: 20px;
+    background-color: black;
+    box-shadow: rgb(255, 0, 0) 0px 0px 20px;
+    border-radius: 16px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn-vendas {
+    background-color: greenyellow;
+    transition: 0, 3;
+    padding: 0px;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 16px;
+}
+
+.btn-vendas:hover {
+    background-color: green;
+    color: white;
+    border-radius: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0, 3s;
+}
+
+a:hover {
+    color: black;
+    transition: 0, 3s;
+}
+
+footer {
+    background-color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}

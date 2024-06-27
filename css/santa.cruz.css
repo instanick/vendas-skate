@@ -1,0 +1,127 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    background-image: url(../assets/back-img.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(black, rgb(180, 20, 20));
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo {
+    display: flex;
+    height: 70px;
+}
+
+.texto-superstar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto {
+    width: 400px;
+    height: 580px;
+    background-color: black;
+    padding: 80px;
+    box-shadow: red 0px 0px 20px;
+}
+
+.texto p {
+    color: white;
+    font-size: 29px;
+}
+
+.santa-cruz {
+    padding: 0px;
+    box-shadow: 0px 0px 40px red;
+    width: 400px;
+    height: px;
+}
+
+.santa-cruz img {
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 16px;
+    transition: 0.1s;
+}
+
+nav a:hover {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    transition: 0.1s;
+}
+
+.btn-vendas {
+    text-decoration: none;
+    background-color: greenyellow;
+    transition: 0, 3;
+    padding: 0px;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 16px;
+}
+
+.btn-vendas:hover {
+    background-color: green;
+    color: white;
+    border-radius: 16px;
+}
+
+footer {
+    background-color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
